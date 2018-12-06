@@ -3,20 +3,22 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>Spark introduction markdown | Hexo</title>
+  <title>the use of markdown | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Spark机器学习MLlib是Spark的机器学习（Machine Learning）库，旨在简化机器学习的工程实践工作，并方便扩展到更大规模。MLlib由一些通用的学习算法和工具组成，包括分类、回归、聚类、协同过滤、降维等，同时还包括底层的优化原语和高层的管道API。具体来说，其主要包括以下几方面的内容：  算法工具：常用的学习算法，如分类、回归、聚类和协同过滤； 特征化工具：特征提取、转化、降">
 <meta name="keywords" content="study">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Spark introduction markdown">
+<meta property="og:title" content="the use of markdown">
 <meta property="og:url" content="http://yoursite.com/2018/12/06/SparkStreaming+Kafka/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Spark机器学习MLlib是Spark的机器学习（Machine Learning）库，旨在简化机器学习的工程实践工作，并方便扩展到更大规模。MLlib由一些通用的学习算法和工具组成，包括分类、回归、聚类、协同过滤、降维等，同时还包括底层的优化原语和高层的管道API。具体来说，其主要包括以下几方面的内容：  算法工具：常用的学习算法，如分类、回归、聚类和协同过滤； 特征化工具：特征提取、转化、降">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-06T13:29:03.866Z">
+<meta property="og:image" content="http://pic28.photophoto.cn/20130818/0020033143720852_b.jpg">
+<meta property="og:updated_time" content="2018-12-06T13:53:36.633Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Spark introduction markdown">
+<meta name="twitter:title" content="the use of markdown">
 <meta name="twitter:description" content="Spark机器学习MLlib是Spark的机器学习（Machine Learning）库，旨在简化机器学习的工程实践工作，并方便扩展到更大规模。MLlib由一些通用的学习算法和工具组成，包括分类、回归、聚类、协同过滤、降维等，同时还包括底层的优化原语和高层的管道API。具体来说，其主要包括以下几方面的内容：  算法工具：常用的学习算法，如分类、回归、聚类和协同过滤； 特征化工具：特征提取、转化、降">
+<meta name="twitter:image" content="http://pic28.photophoto.cn/20130818/0020033143720852_b.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -79,7 +81,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Spark introduction markdown
+      the use of markdown
     </h1>
   
 
@@ -110,17 +112,31 @@
 <li>玉米</li>
 <li>茄子</li>
 </ol>
-<h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><ul>
-<li>段落一<blockquote>
-<p>区块标记一</p>
+<h4 id="测试段落功能"><a href="#测试段落功能" class="headerlink" title="测试段落功能"></a>测试段落功能</h4><ul>
+<li><p>段落一</p>
+<blockquote>
+<p>区块标记一<br>区块标记二</p>
 </blockquote>
 </li>
-<li>段落二<blockquote>
-<p>区块标记二</p>
+<li><p>段落二</p>
+<blockquote>
+<h3 id="This-is-the-first-level-of-quoting"><a href="#This-is-the-first-level-of-quoting" class="headerlink" title="This is the first level of quoting."></a>This is the first level of quoting.</h3></blockquote>
+<blockquote>
+<ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
 </blockquote>
 </li>
 </ul>
-<h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><table>
+<pre><code>* * *
+
+&gt;给出一些例子代码：
+&gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);
+
+&gt;&gt;This is nested blockquote.
+&gt; Back to the first level.
+</code></pre><h4 id="测试表格功能"><a href="#测试表格功能" class="headerlink" title="测试表格功能"></a>测试表格功能</h4><table>
 <thead>
 <tr>
 <th style="text-align:center">表头</th>
@@ -136,11 +152,15 @@
 </tr>
 </tbody>
 </table>
-<h6 id="h6"><a href="#h6" class="headerlink" title="h6"></a>h6</h6>
+<h4 id="测试本地图片功能"><a href="#测试本地图片功能" class="headerlink" title="测试本地图片功能"></a>测试本地图片功能</h4><h4 id="测试网络图片功能"><a href="#测试网络图片功能" class="headerlink" title="测试网络图片功能"></a>测试网络图片功能</h4><p><img src="http://pic28.photophoto.cn/20130818/0020033143720852_b.jpg" alt="Alt text"></p>
+<h4 id="测试超链接功能"><a href="#测试超链接功能" class="headerlink" title="测试超链接功能"></a>测试超链接功能</h4><p>This is <a href="http://example.com/" title="Title" target="_blank" rel="noopener">an example</a> inline link.</p>
+<p><a href="http://example.net/" target="_blank" rel="noopener">This link</a> has no title attribute.</p>
+<p>See my <a href="/about/">About</a> page for details.</p>
+<h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><h6 id="h6"><a href="#h6" class="headerlink" title="h6"></a>h6</h6>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/06/SparkStreaming+Kafka/" data-id="cjpcn13b70003psv2dpcp7yyo" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/06/SparkStreaming+Kafka/" data-id="cjpcn1lf80001t0v2u1w162o4" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/study/">study</a></li></ul>
@@ -150,6 +170,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2018/12/06/SparkStreaming+Kafka/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
   
   
     <a href="/2018/12/06/Spark related introduction/" id="article-nav-older" class="article-nav-link-wrap">
@@ -205,7 +234,11 @@
       <ul>
         
           <li>
-            <a href="/2018/12/06/SparkStreaming+Kafka/">Spark introduction markdown</a>
+            <a href="/2018/12/06/SparkStreaming+Kafka/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/12/06/SparkStreaming+Kafka/">the use of markdown</a>
           </li>
         
           <li>
@@ -218,10 +251,6 @@
         
           <li>
             <a href="/2018/12/06/the-second-blog/">第二篇</a>
-          </li>
-        
-          <li>
-            <a href="/2017/12/06/hello-Hexo/">test</a>
           </li>
         
       </ul>
